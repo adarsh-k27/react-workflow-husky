@@ -16,6 +16,8 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    'prettier/prettier':"error" 
+    'prettier/prettier':"off",
+    'react/react-in-jsx-scope':"off",
+    'react/jsx-no-target-blank':"off"
   },
 }
